@@ -91,13 +91,6 @@ include "headerdos.php";
 							<label for="registerPassword">Contraseña</label>
 							<input type="password" id="registerPassword" name="registerPassword" class="uiregister" placeholder="Password">
 						</div>
-						<div class="mb-3">
-							<label for="registerRole" class="form-label">Rol</label>
-							<select id="registerRole" name="registerRole" class="uiregister form-control">
-								<option value="Normal">Normal</option>
-								<option value="Admin">Admin</option>
-							</select>
-						</div>
 						<div class="formaregistro-groupreg">
 							<label for="registerProfileImage">Imagen de perfil</label>
 							<input type="file" id="registerProfileImage" name="registerProfileImage" class="uiregister" accept="image/*">
