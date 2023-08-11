@@ -46,18 +46,18 @@ include "headerdos.php";
 						<div class="tabreg uiregister" data-tab="tabreg-register">Register</div>
 					</div>
 
-					<form id="tabreg-login" class="formaregistro uiregister active">
+					<form id="tabreg-login" class="formaregistro uiregister active" method="POST" action="login.php">
 						<h2>Login</h2>
 						<div class="formaregistro-groupreg">
 							<label for="loginUsername">Username</label>
-							<input type="text" id="loginUsername" class="uiregister" placeholder="Username">
+							<input type="text" id="loginCedula" class="uiregister" placeholder="Username">
 						</div>
 						<div class="formaregistro-groupreg">
 							<label for="loginPassword">Password</label>
 							<input type="password" id="loginPassword" class="uiregister" placeholder="Password">
 						</div>
 						<div class="formaregistro-groupreg">
-							<button class="next">Next</button>
+							<button class="submit">Next</button>
 						</div>
 					</form>
 
@@ -90,6 +90,13 @@ include "headerdos.php";
 						<div class="formaregistro-groupreg">
 							<label for="registerPassword">Contraseña</label>
 							<input type="password" id="registerPassword" name="registerPassword" class="uiregister" placeholder="Password">
+						</div>
+						<div class="mb-3">
+							<label for="registerRole" class="form-label">Rol</label>
+							<select id="registerRole" name="registerRole" class="uiregister form-control">
+								<option value="Normal">Normal</option>
+								<option value="Admin">Admin</option>
+							</select>
 						</div>
 						<div class="formaregistro-groupreg">
 							<label for="registerProfileImage">Imagen de perfil</label>
