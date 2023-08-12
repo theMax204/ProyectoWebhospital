@@ -92,6 +92,10 @@ include "headerdos.php";
 							<input type="password" id="registerPassword" name="registerPassword" class="uiregister" placeholder="Password">
 						</div>
 						<div class="formaregistro-groupreg">
+							<label for="registerPassword">Contraseña</label>
+							<input type="password" id="registerPassword" name="registerPassword" class="uiregister" placeholder="Password">
+						</div>
+						<div class="formaregistro-groupreg">
 							<label for="registerProfileImage">Imagen de perfil</label>
 							<input type="file" id="registerProfileImage" name="registerProfileImage" class="uiregister" accept="image/*">
 						</div>
