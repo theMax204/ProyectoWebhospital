@@ -1,0 +1,19 @@
+.navbar {
+  background: #003264;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightblue;
+}
+
+.navbar-toggler {
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
