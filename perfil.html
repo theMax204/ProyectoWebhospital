@@ -11,7 +11,7 @@
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/seccion-administrativo.css" />
+    <link rel="stylesheet" href="css/seccion-usuario.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -42,7 +42,7 @@
               <a class="nav-link" href="Mapa.php">Mapa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registros.php">Registrarse</a>
+              <a class="nav-link" href="perfil.html">Perfil</a>
             </li>
           </ul>
         </div>
@@ -52,33 +52,45 @@
     <!-- Contenido -->
     <section>
       <div class="container mt-5 mb-5">
-        <h1 class="text-center">Tabla de Clientes</h1>
-
-        <!-- Formulario para agregar un nuevo elemento -->
-        <form id="crudForm">
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" required />
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="imagen"
+                alt="Usuario"
+                class="card-img-top text-center"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nombre del Usuario</h5>
+                <p class="card-text">Edad:</p>
+                <p class="card-text">Género:</p>
+              </div>
+            </div>
           </div>
-          <button type="submit" class="btn btn-primary">Buscar</button>
-        </form>
-
-        <!-- Tabla para mostrar y manejar los elementos -->
-        <table class="table mt-4">
-          <thead>
-            <tr>
-              <th>info</th>
-              <th>info</th>
-              <th>info</th>
-              <th>info</th>
-              <th>info</th>
-              <th>info</th>
-            </tr>
-          </thead>
-          <tbody id="tablaBody">
-            <!-- Aquí se agregarán las filas de la tabla dinámicamente -->
-          </tbody>
-        </table>
+          <div class="col-md-8">
+            <h2>Información Médica</h2>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th>Altura:</th>
+                  <td>----</td>
+                </tr>
+                <tr>
+                  <th>Peso:</th>
+                  <td>----</td>
+                </tr>
+                <tr>
+                  <th>Presión Arterial:</th>
+                  <td>----</td>
+                </tr>
+                <tr>
+                  <th>Historial Médico:</th>
+                  <td>----</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </section>
 

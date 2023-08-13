@@ -3,10 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Hospital Clínica Costarricense</title>
+	<link rel="icon" type="image/x-icon" href="img/logo.png" />
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="icon" type="image/x-icon" href="img/logo.png" />
 	<meta property="og:title" content="">
 	<meta property="og:type" content="">
 	<meta property="og:url" content="">
@@ -19,23 +20,19 @@
 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/generalh.css">
 	<link rel="stylesheet" href="css/registros.css">
 </head>
 
-<!-- cabecera  -->
-<?php
-$currentPage = basename($_SERVER['PHP_SELF']);
-include "headerdos.php";
-?>
 
-
-<!--header-->
 
 <body class="bodyprincipal">
-
+	<!-- cabecera  -->
+	<?php
+	$currentPage = basename($_SERVER['PHP_SELF']);
+	include "headerdos.php";
+	?>
 	<section class="container">
 
 		<div class="containerregistro">
@@ -112,33 +109,31 @@ include "headerdos.php";
 	<!-- Agrega aquí tus scripts personalizados -->
 
 
+	<!--  pie  -->
+	<?php include "footer.php" ?>
+	<!-- pie -->
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+	</script>
+	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/principal.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 </body>
 
 
-<!--  pie  -->
-<?php include "footer.php" ?>
-<!-- pie -->
 
 
 
 
 
 
-<script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="js/principal.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/97cef9f55a.js" crossorigin="anonymous"></script>
-<!-- archivos js adicionales -->
 
 
-
-
-
-<!-- Agregar la última versión de Bootstrap JS -->
 
 </html>
